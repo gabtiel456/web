@@ -22,14 +22,14 @@ img {
     margin: 0 auto;
 }
 .header {
-    background-image: url(imagenes/36bc8b4adf92ad5b582891b9fc4a3e26.jpg);
+    background-image: url(84fec-16867310001697-1920.avif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
-    min-height: 80vh;
-    padding: 80px 0;
+    min-height: 90vh;
+    padding: 90px 0;
     
 }
 
@@ -46,7 +46,7 @@ img {
 
 .logo {
     color: #ff2c2c;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 800;
     text-transform: uppercase;
 
@@ -150,7 +150,7 @@ h2 {
 
 .product-content {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 50px;
 }
 
@@ -184,3 +184,26 @@ h3 {
     margin-right: 0;
 
 }
+
+.carrito {
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 1px solid #000000;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.total {
+    text-align: right;
+    font-weight: bold;
+}
+
